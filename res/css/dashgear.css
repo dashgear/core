@@ -1,0 +1,66 @@
+@import "fonts.css";
+@import "grid.css";
+
+* {
+  box-sizing:border-box;
+  cursor:none;
+}
+
+body {
+  margin:0;
+  padding:0;
+  font-family:'Roboto', 'Helvetica', sans-serif;
+  font-size:16px;
+}
+
+#container {
+  padding:100px 0;
+}
+
+
+#container-bg {
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+
+  display: block;
+  background-image: url('https://i.redditmedia.com/lQURT78AvSAu59GpVPhPZUR7gcvWE4SnoFcEu-TlSUI.jpg?w=986&s=e7b729f030bcd77d4d8603535aa7a6b1');
+  background-size:cover;
+  width: 100%;
+  height: 100%;
+
+  transform:scale(1.1);
+
+  filter: blur(10px);
+  transition: background 0.5s ease-in-out;
+}
+
+.widget-container {
+  padding:15px;
+  margin-bottom: 25px;
+  background:#F8F8F8;
+}
+
+.widget-container > .row {
+  margin:0;
+}
+
+.text-large {
+  font-size:3em !important;
+}
+
+.text-medium {
+  font-size:2em !important;
+}
+
+.text-small {
+  font-size:1em !important;
+}
+
+@media screen and (min-width: 2560px) and (min-height: 1440px) {
+   body {
+      zoom:1.4;
+   }
+}

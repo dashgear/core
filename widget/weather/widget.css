@@ -1,0 +1,6 @@
+@import "widget/weather/res/css/owfont-regular.min.css";
+
+#! .owf {
+  font-size:5em !important;
+  line-height:96px;
+}

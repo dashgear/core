@@ -1,0 +1,10 @@
+{
+  "unit": "F",
+  "city": "Bern",
+  "countrycode": "ch",
+  "api_key": "",
+  "refresh": {
+    "enable": true,
+    "interval": 360
+  }
+}
